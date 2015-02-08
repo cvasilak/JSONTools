@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "https://github.com/grgcombs/JSONTools.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/cvasilak/JSONTools.git", :tag => "master" }
   s.source_files = "JSONTools/*.{h,m}"
   s.dependency "KiteJSONValidator", '~> 0.2.2'
-  
+
   s.requires_arc = true
 end
